@@ -17,7 +17,7 @@ A GUI-based Notebook Store application built with MVP architecture, leveraging S
 ---
 
 ## Project Structure
-
+```
 notebook-store-gui-app/
 │
 ├─ model/
@@ -41,3 +41,4 @@ notebook-store-gui-app/
 ├─ .env
 ├─ venv
 └─ data_base.sql
+```
