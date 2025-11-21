@@ -20,25 +20,30 @@ A GUI-based Notebook Store application built with MVP architecture, leveraging S
 ```
 notebook-store-gui-app/
 │
-├─ model/
-│ └─ notebook.py
-│
-├─ dao/
-│ ├─ notebook_dao.py
-│ ├─ notebook_dao_impl.py
-│ └─ admin_dao_impl.py
-│
-├─ view/
-│ ├─ admin_view.py
-│ └─ user_view.py
-│
-├─ presenter/
-│ ├─ admin_presenter.py
-│ └─ user_presenter.py
-│
-├─ db.py
-├─ main.py
-├─ .env
-├─ venv
-└─ data_base.sql
+├── main.py
+├── db.py
+├── .env
+├── venv
+├── data_base.sql
+├── view/
+│   ├── main_view.py
+│   ├── login_view.py
+│   ├── register_view.py
+│   ├── admin_view.py
+│   ├── admin_choice_view.py
+│   └── user_view.py
+├── presenter/
+│   ├── main_presenter.py
+│   ├── login_presenter.py
+│   ├── register_presenter.py
+│   ├── admin_presenter.py
+│   ├── admin_choice_presenter.py
+│   └── user_presenter.py
+├── model/
+│   └── notebook.py
+└── dao/
+    ├── notebook_dao.py
+    ├── notebook_dao_impl.py
+    ├── admin_dao.py
+    └── admin_dao_impl.py
 ```
