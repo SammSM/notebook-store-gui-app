@@ -37,7 +37,7 @@ notebook-store-gui-app/
 │   ├── login_presenter.py
 │   ├── register_presenter.py
 │   ├── admin_presenter.py
-│   ├── admin_choice_presenter.py
+│   ├── admin_login_presenter.py
 │   └── user_presenter.py
 ├── model/
 │   └── notebook.py
