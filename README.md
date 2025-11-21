@@ -3,18 +3,24 @@ A GUI-based Notebook Store application built with MVP architecture, leveraging S
 
 ## Features
 
-- Admin panel to **add, read, update, and delete notebooks** (CRUD operations).
-- User panel to **browse notebooks**.
+### Admin Panel
+- Add, update, and delete notebooks (**CRUD** operations)
+- Manage notebook attributes: **Model, RAM, SSD, Price, Quantity**
+- Admin authentication with secure password hashing using **bcrypt**
+- Interactive tables and dropdowns for easy management
 
----
+### User View
+- Browse available notebooks
 
-## Architecture & Design Patterns
+### Architecture & Design Patterns
+- **MVP (Model-View-Presenter):** separates GUI, business logic, and data access
+- **DAO (Data Access Object):** abstracts database operations
+- **Singleton:** ensures a single instance of database connection
 
-- **MVP (Model-View-Presenter)**: Separates UI (View), business logic (Presenter), and data (Model).
-- **DAO (Data Access Object)**: Encapsulates database operations.
-- **Singleton**: Ensures only one instance of the database connection is used (optional, can be removed if multiple users are expected concurrently).
-
----
+### Database
+- Uses **MySQL**
+- Database schema provided in `database.sql`
+- Imported database is named `notebook_store`
 
 ## Project Structure
 ```
