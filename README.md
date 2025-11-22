@@ -22,6 +22,9 @@ A GUI-based Notebook Store application built with MVP architecture, leveraging S
 - Database schema provided in `database.sql`
 - Imported database is named `notebook_store`
 
+#### ER Diagram
+![ER Diagram](path/db.png)
+
 ## Project Structure
 ```
 notebook-store-gui-app/
