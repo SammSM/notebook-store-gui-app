@@ -53,3 +53,18 @@ notebook-store-gui-app/
     ├── admin_dao.py
     └── admin_dao_impl.py
 ```
+
+## Interface
+
+### Main view
+
+### Admin login
+
+### Login
+
+### Register
+
+### Admin panel
+
+### User
+
