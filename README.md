@@ -17,14 +17,6 @@ A GUI-based Notebook Store application built with MVP architecture, leveraging S
 - **DAO (Data Access Object):** abstracts database operations
 - **Singleton:** ensures a single instance of database connection
 
-### Database
-- Uses **MySQL**
-- Database schema provided in `database.sql`
-- Imported database is named `notebook_store`
-
-#### ER Diagram
-![ER Diagram](images/db.png)
-
 ## Project Structure
 ```
 notebook-store-gui-app/
@@ -60,14 +52,20 @@ notebook-store-gui-app/
 ## Interface
 
 ### Main view
-
+![Main view](images/main.png)
 ### Admin login
-
-### Login
-
-### Register
-
+![Admin login](images/login.png)
+### Admin Register
+![Admin register](images/register.png)
 ### Admin panel
-
+![Admin panel](images/admin_panel.png)
 ### User
+![User](images/user.png)
 
+### Database
+- Uses **MySQL**
+- Database schema provided in `database.sql`
+- Imported database is named `notebook_store`
+
+#### ER Diagram
+![ER Diagram](images/db.png)
